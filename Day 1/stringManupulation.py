@@ -1,0 +1,1 @@
+print("Never say 'NO'," + " Never say 'I Cannot'," + " For you are infinite  All the power is within you. " + "you can do anything")
