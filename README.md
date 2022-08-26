@@ -8,5 +8,5 @@
 ## [Day_01](https://github.com/PRADIP9193/python_bootcamp/tree/main/Day%201)
 
 <center>
--- Introduction
+-- Introduction ti the python
 </center>
