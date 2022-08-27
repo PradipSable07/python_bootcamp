@@ -2,7 +2,7 @@
 import random
 import hangman_words
 import hangman_art
-import replit
+
 #importing the hangman word list from hangman_words.py
 chosen_word = random.choice(hangman_words.word_list)
 word_length = len(chosen_word)

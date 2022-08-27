@@ -8,7 +8,10 @@
 ## [Day_01](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%201)
 
 <center> Introduction to the python
+
 </center> 
+<br>
+
 
 ## [Day_02](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%202)
 
@@ -19,5 +22,14 @@
 ## [Day_05](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%205)
 ## [Day_06](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%206)
 ## [Day_07](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%207)
+<center> Hangman Game 👨🏻‍💻
+</center>
+
+<br>
+
+## [Day_08](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%208) 
+
+<center>Funtions with Inputs</center>
+
 
 
