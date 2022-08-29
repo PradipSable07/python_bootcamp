@@ -25,11 +25,22 @@
 <center> Hangman Game 👨🏻‍💻
 </center>
 
+- step 01:
+
+- step 02:
+
+- step 03:
+
+- step 04:
+
+- step 05: 
+
 <br>
 
 ## [Day_08](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%208) 
 
-<center>Funtions with Inputs</center>
+<center>Funtions</center>
 
+- Function : The keyword 'def' introduces a function definition. It must be followed by the function name and the parenthesized() list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
 
 
