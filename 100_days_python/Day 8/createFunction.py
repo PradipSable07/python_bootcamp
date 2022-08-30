@@ -25,3 +25,11 @@ def function_name(declear a variable or parameter):
 '''
 # calling a function()
 # function_name(input or Declare a variable value or argument)
+
+# Functions that allows for input 
+def greet_with_name(name):
+    print(f"Hello {name}")
+    print(f"How do you do {name}? ")
+
+greet_with_name("Pradip_Sable")
+    
