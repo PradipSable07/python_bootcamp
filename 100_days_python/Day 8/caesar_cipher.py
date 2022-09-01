@@ -28,5 +28,3 @@ if direction == "encode":
   encrypt(plain_text =text,shift_amount=shift)
 elif direction == "decode":
     decrypt(cipher_text = text,shift_amount = shift)
-    
-
