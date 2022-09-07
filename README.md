@@ -24,16 +24,25 @@
 ## [Day_07](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%207)
 <center> Hangman Game 👨🏻‍💻
 </center>
+* Hangman game : It is basically letter guessing game. 
 
-- step 01:
+The step by step macking of game as follows :
 
-- step 02:
 
-- step 03:
-
-- step 04:
-
-- step 05: 
+                step 01(starting)
+                    |
+                   \|/ 
+                step 02
+                    |
+                   \|/
+                step 03
+                    |
+                   \|/
+                step 04
+                    |
+                   \|/
+                step 05
+                
 
 <br>
 
@@ -42,7 +51,7 @@
 <center>Funtions</center>
 
 * Function : The keyword 'def' introduces a function definition. It must be followed by the function name and the parenthesized() list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
-
+* Creating a Funtion
 * Paint area calculator
 * Prime number checker
-* Caesar cipher encrypt
+* Caesar cipher 
