@@ -9,7 +9,7 @@ python_dictionary = {
 }
 
 #Retrieving items from dictionary.
-print(python_dictionary["Bug"])
+# print(python_dictionary["Bug"])
 
 # Adding new items to dictionary.
 python_dictionary["Loop"] = "The action of doing something over and over again."
@@ -27,6 +27,12 @@ empty_dictionary = {}
 # Edit an item in a dictionary
 python_dictionary["Bug"] = "A moth in your computer."
 
-print(python_dictionary)
+# print(python_dictionary)
+
+# Loop through a dictionary
+
+for key in python_dictionary:
+    print(key)
+    print(python_dictionary[key])
 
 
