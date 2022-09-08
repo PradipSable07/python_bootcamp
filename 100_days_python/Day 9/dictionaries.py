@@ -35,4 +35,42 @@ for key in python_dictionary:
     print(key)
     print(python_dictionary[key])
 
+# *--------------------*----------------------*---------------------*-----------------------*-------------------*--------------------*
+
+#Nesting List and Dictionaries
+ 
+capitals = {
+    "France":"Paris",
+    "Germany":"Barlin",
+    }
+
+# Nesting a list in a Dictionary
+
+travel_log = {
+    "France": ["Paris", "Lille","Dijon"],
+    "Germany": ["Berlin","Hamburg","stuttgart"],
+}
+
+# Nesting a Dictonary in Dictionary
+   
+travel_log = {
+    "France": {"cities_visited":["Paris", "Lille","Dijon"],"total_visits: 2"},
+    "Germany": {"cities_visited": ["Berlin","Hamburg","stuttgart"],"total_visits : 3"},
+}
+
+
+# Nesting Dictonary in a List
+
+travel_log = {
+    {
+    "contry": "France", 
+     "cities_visited":["Paris","Lille","Dijon"],
+     "total_visits: 2"
+     },
+    {
+    "contry": "Germany", 
+     "cities_visited": ["Berlin","Hamburg","stuttgart"],
+     "total_visits : 3"
+     },
+}
 
