@@ -61,7 +61,7 @@ travel_log = {
 
 # Nesting Dictonary in a List
 
-travel_log = {
+travel_log = [
     {
     "contry": "France", 
      "cities_visited":["Paris","Lille","Dijon"],
@@ -72,5 +72,5 @@ travel_log = {
      "cities_visited": ["Berlin","Hamburg","stuttgart"],
      "total_visits : 3"
      },
-}
+]
 
