@@ -1,7 +1,7 @@
 import os
 
-from art import logo
-print(logo)
+# from art import logo
+# print(logo)
 bids = {}
 bidding_finished = False
 
