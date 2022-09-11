@@ -21,6 +21,7 @@
 ## [Day_06](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%206)
 ## [Day_07](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%207)
 <center> Hangman Game 👨🏻‍💻</center>
+<br>
 
 * Hangman game : It is basically letter guessing game. 
 
@@ -47,7 +48,7 @@ The step by step macking of game as follows :
 ## [Day_08](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%208) 
 
 <center>Funtions</center>
-
+<br>
 * Function : The keyword 'def' introduces a function definition. It must be followed by the function name and the parenthesized() list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
 * Creating a Funtion
 * Paint area calculator
@@ -57,6 +58,7 @@ The step by step macking of game as follows :
 ## [Day_09](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%209)
 
 <center>Dictionaries</center>
+<br>
 
 * Retrieving item
 * Adding item 
