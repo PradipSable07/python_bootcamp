@@ -56,4 +56,16 @@ The step by step macking of game as follows :
 
 ## [Day_09](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%209)
 
-<center>Dictionaries & Nesting</center>
+<center>Dictionaries</center>
+
+* Retrieving item
+* Adding item 
+* Creating empty dictionary
+* Nesting 
+    * list in dictonary
+    * dictonary in dictonary
+    * dictonary in list
+
+<!-- ## [Day_10](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%210)
+
+<center>Function with Output</center> -->
