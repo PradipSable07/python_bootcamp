@@ -66,6 +66,6 @@ The step by step macking of game as follows :
     * dictonary in dictonary
     * dictonary in list
 
-<!-- ## [Day_10](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%210)
+## [Day_10](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%210)
 
-<center>Function with Output</center> -->
+<center>Function with Output</center>
