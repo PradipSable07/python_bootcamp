@@ -17,7 +17,7 @@ python_dictionary["Loop"] = "The action of doing something over and over again."
 # Checking items in dictionary
 # print(python_dictionary)
 
-# Create an empty dictonary
+# Create an empty dictionary
 empty_dictionary = {}
 
 # Wipe an existing dictionary
