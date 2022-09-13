@@ -49,10 +49,15 @@ The step by step macking of game as follows :
 
 <center>Funtions</center>
 <br>
+
 * Function : The keyword 'def' introduces a function definition. It must be followed by the function name and the parenthesized() list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
+
 * Creating a Funtion
+
 * Paint area calculator
+
 * Prime number checker
+
 * Caesar cipher 
 
 ## [Day_09](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%209)
@@ -71,3 +76,5 @@ The step by step macking of game as follows :
 ## [Day_10](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%210)
 
 <center>Function with Output</center>
+<br>
+
