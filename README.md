@@ -81,3 +81,4 @@ The step by step macking of game as follows :
 * Function with output means without writing print function return the variable with return statement.
 * Function with multiple return statement.
 * Days in Month (Exercise)
+* Docstrings : Use of docstring when we gives the discription about the function or anything that you want to describe.
