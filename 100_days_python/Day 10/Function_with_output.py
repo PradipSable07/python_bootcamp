@@ -35,6 +35,14 @@ print(output)
 # Multiple return values 👇🏼
 
 def format_name(f_name,l_name):
+    """ Take
+    Args:
+        f_name (string): Frist name
+        l_name (string): Last name
+
+    Returns:
+        the formated title case version of the name.
+    """
     if f_name == "" or l_name == "":
         return "You didn't provide valid inputs."
     formated_f_name = f_name.title()
