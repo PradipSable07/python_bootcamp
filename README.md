@@ -78,3 +78,6 @@ The step by step macking of game as follows :
 <center>Function with Output</center>
 <br>
 
+* Function with output means without writing print function return the variable with return statement.
+* Function with multiple return statement.
+* Days in Month (Exercise)
