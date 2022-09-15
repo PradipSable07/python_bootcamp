@@ -36,7 +36,7 @@ print(output)
 
 def format_name(f_name,l_name):
     """ Take
-    Args:
+    Arguments:
         f_name (string): Frist name
         l_name (string): Last name
 
