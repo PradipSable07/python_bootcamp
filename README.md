@@ -82,3 +82,4 @@ The step by step macking of game as follows :
 * Function with multiple return statement.
 * Days in Month (Exercise)
 * Docstrings : Use of docstring when we gives the discription about the function or anything that you want to describe.
+* Print vs Return : Printing means displaying a value in a console. To print value in Python. We just call the print() function. Retrun is used to return value from function and exit form it. To return a funciton. We just use the return keyword. 
