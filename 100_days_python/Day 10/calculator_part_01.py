@@ -24,22 +24,31 @@ operations = {
     "*": multiply,
     "/": divide,
 }
+def calculator():
+    # To take 1st numbers inputs form the users
+    num1 = int(input("What's the first number?: "))
 
-# To take 1st numbers inputs form the users
-num1 = int(input("What's the first number?: "))
+    # To show the operation symbols
+    for symbols in operations:
+        print(symbols)
 
-# To show the operation symbols
-for symbols in operations:
-    print(symbols)
-    
-operation_symbol = input("Pick an operation from the line above: ")
+    should_continue = True 
 
-# To take 2nd numbers inputs form the users
-num2 = int(input("What's the second number?: "))
+    while should_continue:   
+        operation_symbol = input("Pick an operation: ")
 
-calculation_function = operations[operation_symbol]
-answer = calculation_function(num1, num2)
+        # To take 2nd numbers inputs form the users
+        num2 = int(input("What's the next number?: "))
 
-print(f"{num1} {operation_symbol} {num2} = {answer}")
+        calculation_function = operations[operation_symbol]
+        answer = calculation_function(num1, num2)
 
-ope
+        print(f"{num1} {operation_symbol} {num2} = {answer}")
+
+        if input(f"Type 'Y' to continue calculating with {answer}, or type 'N' ot start a new calculation: ") == "Y": 
+            num1 = answer
+        else: 
+            should_continue = False
+            calculator()
+            
+calculator()
