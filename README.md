@@ -10,6 +10,8 @@
 <center> Introduction to the python</center> 
 <br>
 
+* Variables in Pythons
+
 
 ## [Day_02](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%202)
 
