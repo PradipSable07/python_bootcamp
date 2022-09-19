@@ -75,7 +75,7 @@ The step by step macking of game as follows :
     * dictonary in dictonary
     * dictonary in list
 
-## [Day_10](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%210)
+## [Day_10](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2010)
 
 <center>Function with Output</center>
 <br>
@@ -87,6 +87,6 @@ The step by step macking of game as follows :
 * Print vs Return : Printing means displaying a value in a console. To print value in Python. We just call the print() function. Retrun is used to return value from function and exit form it. To return a funciton. We just use the return keyword. 
 
 
-## [Day_11]()
+## [Day_11](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2011)
 
 * Black Jack Game
