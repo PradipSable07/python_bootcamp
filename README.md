@@ -90,3 +90,7 @@ The step by step macking of game as follows :
 ## [Day_11](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2011)
 
 * Black Jack Game
+
+## [Day_12](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2012)
+
+* The Number Guessing Game 
