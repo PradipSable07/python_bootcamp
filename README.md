@@ -68,6 +68,10 @@ The step by step macking of game as follows :
 <br>
 
 * Retrieving item
+
+
+
+
 * Adding item 
 * Creating empty dictionary
 * Nesting 
@@ -89,8 +93,28 @@ The step by step macking of game as follows :
 
 ## [Day_11](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2011)
 
-* Black Jack Game
+<center> Black Jack Game </center>
 
 ## [Day_12](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2012)
 
+<center> The Namespaces </center>
+<br>
+* The Scope
+    - The Local Scope
+    - The Gloval Scope
+
 * The Number Guessing Game 
+
+## [Day_13](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2013)
+<center>Debugging</center>
+<br>
+
+* Describe the Problem
+* Reproduce the Bug
+* Play Computer
+* Fixing Errors nad Watching for Red Underliines
+* Print is Your Friend
+* Using a Debugger
+* Ask a Real Friend
+* Run Code Often 
+* Ask StackOverflow
