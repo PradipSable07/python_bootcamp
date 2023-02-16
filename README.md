@@ -79,7 +79,31 @@ i have given you answer below,
 
  ```
 
- There are some rules to define a variables
+ - There are some rules to define a variables that are 
+
+    - A variable name must start with a `letter` or the `underscore '_'`  character
+    - A variable name cannot start with a `number`
+    - A variable name can only contain alpha-numeric characters and underscores `(A-z, 0-9, and _ )`
+    - Variable names are `case-sensitive`(age, Age and AGE are three different variables)
+
+
+- #### Project : Band 🎸 Name Generator:
+
+```
+# Create a greeting for your program.
+print("Welcome to the Band Name Generator!")
+
+# input for users city
+cityName = input("In which city are you grow up?\n")
+
+# input for users pet name
+petName = input("What is your pet name?\n")
+
+# concatitation of cityName and petName
+print("your band could be " + cityName + petName)
+
+```
+
 
 ### [Day_02](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%202)
 
