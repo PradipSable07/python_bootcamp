@@ -8,7 +8,7 @@
 
 ### [Day_01](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%201)
 
-## <center> Introduction to the python</center>
+#### <center> Introduction to the python</center>
 
 <br>
 
@@ -56,30 +56,30 @@ i have given you answer below,
 
 ```
 # normal input function
- input("what is your gender?")
+input("what is your gender?")
 
 # nested input function.
- print("hello "+input("what is your name?\n")+"!")
+print("hello "+input("what is your name?\n")+"!")
 
 # length function len() to measure the length of answer string.
- print(len(input("what is your name?\n")))
+print(len(input("what is your name?\n")))
 
 ```
 
-- ## Variables in Pythons
- 
- variables are the entity that hold the data of item or thing that programmer defind. like below,
+- #### Variables in Pythons
 
- ```
- name = 'pradip' 
- # names stores the stirng value
- 
- age = 22 #
+variables are the entity that hold the data of item or thing that programmer defind. like below,
+
+```
+name = 'pradip' 
+# names stores the stirng value
+
+age = 22 #
 # age stores the integer value
 
- ```
+```
 
- - There are some rules to define a variables that are 
+- There are some rules to define a variables that are 
 
     - A variable name must start with a `letter` or the `underscore '_'`  character
     - A variable name cannot start with a `number`
@@ -105,7 +105,150 @@ print("your band could be " + cityName + petName)
 ```
 
 
+
 ### [Day_02](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%202)
+
+#### <center> Data Types, Type Conversion, Numbers, Operations, f-Strings </center>
+
+- Data Types :-
+
+   - Primitive Data Types :
+        - Stirng : it just collection of characters just like ` "Namaste 🙏🏼"` that is inside the single quotes or double quotes.
+
+        - Integer : in integer there are numbers without a decimal `.`,like `0123456789`.
+
+        - Float :  the flot is same like integer but it has a decimal in it. like `pi = 3.14159 # a floating point number`.
+
+        - Boolean : it inclues only truthy or falsy values like `true or false`.
+
+    - Type Error, Type Cheking and Type Conversion :-
+
+        - Type Error : means it is a typing error in the code.
+        ``` 
+        name = "pradip"
+        print(name + 123) # this will give a type error becase the sting and numbers can not concatenate
+        ```
+
+        - Type Checking : is done through the ` type()` 
+         example : `print(type(name))`.
+
+        - To type conversion of any variable we just do the following thing:
+        ``` 
+        number = "2343"
+        print(type(number)) # it will give you string as a type. 
+        # To convert this into number we just have to write
+        print(int(number)) # this will give us integer value
+        ```
+        just like above we can do with all data type conversions
+
+- Mathematical Operation : 
+            
+    - Addition`+` = 3 + 7
+    - Subtraction`-` = 3 - 7
+    - Multiplication` * ` = 3 * 7
+    - Division`/` = 3 / 7
+    - Exponents` ** ` = 3 ** 7
+
+    - PEDMAS = PARENTHESIS `()`, EXPONENTS `**`, MULTIPLICATION `*`, DIVISION `/`, ADDITION `+`, SUBTRACTION `-`.
+
+    ``` print( 3 * (3 + 3) / 3 - 3)
+        print( 3 * 3 + 3 / 3 - 3)
+        name= input("What is your name?")
+        print("Hello, " + name)
+        ```
+
+- BMI (Body Mass Index calculator)
+```
+height = input("enter your height in meter: ")
+weight = input("enter your height in kg: ")
+
+bmi = int(weight) / float(height) ** 2
+bmi_as_int = int(bmi) // converted to integer
+print(bmi)
+print(bmi_as_int)
+```
+
+- Number Manipulation and F String 
+    - To round the number we do ` round()` funtion 
+    ex: 
+    ``` 
+    number = (7/2)
+    print(number) # it will give us 4.5 floating number
+    print(round(number)) # but in this will git the the 4 as a rounded number.
+    ``` 
+    insted doing division we can do the flow division like 
+    ```
+     number = (9 // 2) # in this we will get the 4 
+    ```
+
+    - To manipulate the number in python we can do 
+    ``` 
+    pradipis = 21
+
+    # if we want to add one year to it we can do 
+    pradipis += 1
+
+    print(pradipis + "year old") 
+    # it will give the result as 22 year old
+    ```
+
+    - F-String: <br> What F-sting do ?
+     : it simplyfy the sting manipulation let's understand with example.
+     ``` 
+     # Before we have to convert the any number to string, to concatinate with each other just like 
+     number = 123
+     Strnum = str(number)
+     print("This is number"+ Strnum)
+     # Now we can just use
+     
+     print(f"The is number {number}")
+     ```
+
+- Your life in weeks : 
+    ```
+    age = input("What is your current age?")
+    age_as_int = int(age)
+
+    # here number of years are 90 you can choose as you want 
+    years_remaining = 90 - age_as_int
+    # here we are not traying to do with leap year
+    days_remaining = years_remaining * 365
+    weeks_remaining = years_remaining * 52
+    months_remaining = years_remaining * 12
+
+    massage =f"You have {days_remaining} days, {weeks_remaining} weeks,{months_remaining} months left"
+
+    print(massage)
+    ```
+
+
+- Mini Project : Tip Calculator
+    ```
+    #If the bill was $150.00, split between 5 people, with 12% tip. 
+
+    #Each person should pay (150.00 / 5) * 1.12 = 33.6
+    #Format the result to 2 decimal places = 33.60
+
+    #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+
+    #Write your code below this line 👇
+    
+    print("Welcome to the tip calculator.")
+    bill = float(input("What was the total bill? $"))
+
+    tip = int(input("How much tip would you like to give? 10, 12, 15(please do not write % in it just write number: " ))
+    people = int (input("How many people to split the bill? "))
+
+    bill_with_tip = (tip/100 * bill) + bill
+    print(bill_with_tip)
+
+    bill_per_person = bill_with_tip/people
+
+    print(f"Each person should pay: ${bill_per_person}")
+
+    ```
+
+    
 
 ### [Day_03](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%203)
 
@@ -117,7 +260,7 @@ print("your band could be " + cityName + petName)
 
 ### [Day_07](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%207)
 
-<center> Hangman Game 👨🏻‍💻</center>
+#### <center> Hangman Game 👨🏻‍💻</center>
 <br>
 
 - Hangman game : It is basically letter guessing game.
@@ -145,7 +288,7 @@ The step by step macking of game as follows :
 
 ### [Day_08](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%208)
 
-<center>Funtions</center>
+#### <center>Funtions</center>
 <br>
 
 - Function : The keyword 'def' introduces a function definition. It must be followed by the function name and the parenthesized() list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
@@ -160,7 +303,7 @@ The step by step macking of game as follows :
 
 ### [Day_09](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%209)
 
-<center>Dictionaries</center>
+#### <center>Dictionaries</center>
 <br>
 
 - Retrieving item
@@ -174,7 +317,7 @@ The step by step macking of game as follows :
 
 ### [Day_10](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2010)
 
-<center>Function with Output</center>
+#### <center>Function with Output</center>
 <br>
 
 - Function with output means without writing print function return the variable with return statement.
@@ -186,11 +329,11 @@ The step by step macking of game as follows :
 
 ### [Day_11](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2011)
 
-<center> Black Jack Game </center>
+#### <center> Black Jack Game </center>
 
 ### [Day_12](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2012)
 
-<center> The Namespaces </center>
+#### <center> The Namespaces </center>
 <br>
 * The Scope
     - The Local Scope
@@ -200,7 +343,7 @@ The step by step macking of game as follows :
 
 ### [Day_13](https://github.com/PRADIP9193/python_bootcamp/tree/main/100_days_python/Day%2013)
 
-<center>Debugging</center>
+#### <center>Debugging</center>
 <br>
 
 - Describe the Problem

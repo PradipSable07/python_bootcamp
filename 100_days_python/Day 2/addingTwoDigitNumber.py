@@ -1,7 +1,7 @@
 two_digit_number = input("Type a two digit number: ")
 
-#Check the data type of two_digit_number
-print(type(two_digit_number))
+#Check the data type of two_digit_number you can uncomment it.
+# print(type(two_digit_number))
 
 #Get the first and second digits using subscripting then convert string to int.
 first_digit = int(two_digit_number[0])
